@@ -1,0 +1,67 @@
+.about{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+    .left{
+        display: flex;
+        flex: 0.5;
+        flex-direction: column;
+        justify-content: center;
+        // background-color: rgb(7, 155, 56);
+
+        .main{
+
+            .main1{
+                display: flex;
+                color: #c42424;
+            }
+            .main-heading{
+                font-size: 20px;
+                font-weight: 500;
+                text-align: justify;
+            }
+            .aboutme{
+                color: #a5a5a5;
+                text-align: justify;
+                font-size: 14px;
+                font-weight: 400;
+            }
+            hr{
+                border: 2px solid #a5a5a5;
+            }
+            .redHeading{
+                color: #c42424;
+            }
+            ul{
+                display: flex;
+                margin-left: -30px;
+                li{
+                    display: flex;
+                    align-items: center;
+                    padding-right: 20px;
+                    font-weight: 400;
+                    font-size: 15px;
+                   
+                    .red{
+                        color: #c42424;
+                        padding-right: 2px;
+                    }
+                }
+            }
+            .aboutDown{
+                display: flex;
+                justify-content: space-between;
+
+                .name , .email{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .right{
+        display: flex;
+        flex: 0.4;
+        // background-color: cadetblue;
+    }
+}
